@@ -22,7 +22,7 @@ namespace AzureKeyVaultDemo.Controllers
 
         public IActionResult Index()
         {
-            TempData["mysecrets"] = _configuration["mysecret"];
+            TempData["mysecrets"] = _configuration["mysecret01"];
             return View();
         }
 
